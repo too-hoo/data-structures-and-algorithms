@@ -1328,7 +1328,7 @@ def merge_two_part(sorted_a, sorted_b):
         new_seq.extend(sorted_a[a:])
     else:
         new_seq.extend(sorted_b[b:])
-     return new_seq
+    return new_seq
      
 ```
 
