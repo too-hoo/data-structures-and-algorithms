@@ -1327,8 +1327,9 @@ def merge_two_part(sorted_a, sorted_b):
     if a < length_a:
         new_seq.extend(sorted_a[a:])
     else:
-        new_seq.extend(sorted_b[b:])=
-
+        new_seq.extend(sorted_b[b:])
+     return new_seq
+     
 ```
 
 #### 算法分析
